@@ -29,7 +29,7 @@ In this Readme are several different use cases and class diagrams to all Bank-ta
 | Post-requisites | The payment is done                                                         |
 | Process         | 1. identify account  <br/> 2. Check amount of money <br/> 3. Make a payment |
 #### Bank Statement
-| Name              | **Kunde erhält einen Kontoauszug für sein Bankkonto** |
+| Name              | Customer receives the bank statement                  |
 |-------------------|-------------------------------------------------------|
 | Description       | The banker gives a bank statement to the customer     |
 | Actor             | Customer, Banker                                      |
