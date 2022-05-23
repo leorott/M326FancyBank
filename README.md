@@ -22,7 +22,7 @@ In this Readme are several different use cases and class diagrams to all Bank-ta
 |-----------------|-----------------------------------------------------------------------------|
 | Description     | The banker makes a payment for the customer                                 |
 | Actor           | Customer, Banker                                                            |
-| Initiator       | The customer wants to do a pament.                                          |
+| Initiator       | The customer wants to do a payment.                                         |
 | Prerequisites   | The customer must have an account                                           |
 | Input Data      | Account, Amount of Money                                                    |
 | Result          | Confirmation of the payment                                                 |
