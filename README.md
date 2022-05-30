@@ -4,7 +4,7 @@ In this Readme are several different use cases and class diagrams to all Bank-ta
 
 ## Bank 2
 ### Class Diagram
-![](classDiagram1.png)
+![](classDiagram2.png)
 ### Use-Case
 #### Account Creation
 | Name            | Customer creates an account at the bank register         |
@@ -41,7 +41,7 @@ In this Readme are several different use cases and class diagrams to all Bank-ta
 | Process           | 1. identify account <br/> 2. give the bank statement  |
 ## Bank 3
 ### Class Diagram
-![](classDiagram2.png)
+![](classDiagram3.png)
 #### Booking trigger
 | Name            | Customer triggers a booking                     |
 |-----------------|-------------------------------------------------|
@@ -55,7 +55,7 @@ In this Readme are several different use cases and class diagrams to all Bank-ta
 | Process         | 1. identify account <br/> 2. trigger booking    |
 ## Bank 4
 ### Class Diagram
-![](classDiagram3.png)
+![](classDiagram4.png)
 #### Open a Salary-, Save- and Youth savings account
 | Name            | Customer opens a Salary-, Save- and Youth savings account        |
 |-----------------|------------------------------------------------------------------|
@@ -67,3 +67,15 @@ In this Readme are several different use cases and class diagrams to all Bank-ta
 | Result          | A Salary-, Save- and Youth savings account is opened             |
 | Post-requisites | -                                                                |
 | Process         | 1. identify customer <br/> 2. open account                       |
+## Bank 5
+### Class Diagram
+![](classDiagram5.png)
+#### Check the top 5 and the bottom 5 accounts
+| Name            | A Banker wants to check the top 5 and bottom 5 accounts |
+|-----------------|---------------------------------------------------------|
+| Actor           | Banker                                                  |
+| Initiator       | The banker wants to have an overview                    |
+| Prerequisites   | minimum 5 accounts must exists                          |
+| Input Data      | Filter Rule                                             |
+| Result          | A list of 5 accounts                                    |
+| Process         | 1. Check accounts <br/>                                 |

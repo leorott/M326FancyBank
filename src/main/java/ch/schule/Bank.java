@@ -49,4 +49,24 @@ public class Bank {
     public long getBalance(String s) {
         return searchAccount(s).getBalance();
     }
+
+    public void print(String id) {
+        System.out.print(id);
+    }
+
+    public void print(String id, int month, int year) {
+        System.out.print(id + month + year);
+    }
+
+    public void printTop5() {
+        accounts.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.comparing(Account::getBalance).reversed()))
+                .forEach(e -> System.out.println(e.getKey() + " value: " + e.getValue()));
+    }
+
+    public void printBottom5() {
+        accounts.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.comparing(Account::getBalance)))
+                .forEach(e -> System.out.println(e.getKey() + " value: " + e.getValue()));
+    }
 }
